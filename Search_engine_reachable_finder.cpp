@@ -41,7 +41,7 @@ int main()
          //row on right side flow
          for(m=c+1;m<8;m++)
          {
-           if(array_1[b][m]==1)
+           if(array_1[b][m]=='1')
          {
            break;
          }
@@ -53,7 +53,7 @@ int main()
          //row on left side flow
          for(m=c-1;m>=0;m--)
          {
-           if(array_1[b][m]==1)
+           if(array_1[b][m]=='1')
          {
            break;
          }
@@ -66,7 +66,7 @@ int main()
          //coulums from top to bottom
          for(m=b-1;m>=0;m--)
          {
-           if(array_1[m][c]==1)
+           if(array_1[m][c]=='1')
          {
            break;
          }
@@ -79,7 +79,7 @@ int main()
          //coulum from bottom to top
          for(m=b+1;m<8;m++)
          {
-           if(array_1[m][c]==1)
+           if(array_1[m][c]=='1')
          {
            break;
          }
